@@ -34,7 +34,7 @@ if(firstName === "Bram" || firstName === "Sarah"){
     console.log("Je krijgt geen gratis biertje!");
 }
 
-if(totalAmount > 100){
+if(totalAmount >= 100){
     console.log("Je krijgt gratis een flesje champange!");
 } else if(totalAmount > 50){
     console.log("Je krijgt gratis een portie nachos!");
